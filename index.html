@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <a href="signup.html">sasas</a>
+
+    <div class="todo-app">
+        <div class="input-field">
+            <input id="todoInput" type="text" placeholder="Enter your task">
+            <i onclick="addTodo()" class="fa fa-plus"></i>
+        </div>
+        <label for="" id="label-error" style="display: none;">Task is required</label>
+
+        <div class="clear-btn">
+            <button onclick="clearAll()">Remove All</button>
+        </div>
+        <div class="todo-list">
+            
+            <ul id="todo-ul">
+                <label id="hide-li">No task added</label>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
